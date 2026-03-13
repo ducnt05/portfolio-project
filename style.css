@@ -202,6 +202,25 @@ body {
 }
 
 /* Responsive Design */
+
+.icon-skill img {
+  transform: translateY(200px);
+  transition: 1s;
+  opacity: 0;
+}
+.icon-skill img.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+.recent-project img {
+  transform: translateX(200px);
+  transition: 1s;
+  opacity: 0;
+}
+.recent-project img.active {
+  transform: translateX(0);
+  opacity: 1;
+}
 @media (max-width: 768px) {
   .header {
     height: auto;
@@ -288,22 +307,4 @@ body {
   .footer a {
     margin: 0;
   }
-}
-.icon-skill img {
-  transform: translateY(200px);
-  transition: 1s;
-  opacity: 0;
-}
-.icon-skill img.active {
-  transform: translateY(0);
-  opacity: 1;
-}
-.recent-project img {
-  transform: translateX(200px);
-  transition: 1s;
-  opacity: 0;
-}
-.recent-project img.active {
-  transform: translateX(0);
-  opacity: 1;
 }
