@@ -36,7 +36,7 @@ window.addEventListener("scroll", function () {
 });
 
 const lenis = new Lenis({
-  duration: 2,
+  duration: 5,
   smooth: true,
 });
 
@@ -50,10 +50,18 @@ requestAnimationFrame(raf);
 var headerH1 = document.querySelector(".header h1");
 headerH1.classList.add("active");
 var headerSpan = document.querySelectorAll(".header span");
-for (let i=0;i<headerSpan.length;i++) {
-
-
-headerSpan[i].classList.add("active");
+for (let i = 0; i < headerSpan.length; i++) {
+  headerSpan[i].classList.add("active");
 }
 var headerAvatar = document.querySelector(".header .avatar");
 headerAvatar.classList.add("active");
+const martWork = document.querySelector(".mart-work");
+
+window.addEventListener("scroll", function () {
+  const position = martWork.getBoundingClientRect().top;
+  const screenHeight = window.innerHeight;
+
+  if (position < screenHeight - 100) {
+    martWork.classList.add("active");
+  }
+});
