@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="avatar">
+            <img src="./avatar.jpg" alt="" />
+        </div>
+        <h1>Hi, I'm Duc Nguyen</h1>
+        <div class="info">
+            <span>I am a third-year university student passionate about web development
+                and aspiring to become a Full Stack Web Developer. I enjoy building
+                web applications, learning new technologies, and solving programming
+                problems. My goal is to continuously improve my technical skills and
+                gain practical experience by working on real projects.</span>
+            <span>Education: VNU University of Science, Vietnam National University,
+                Hanoi</span>
+            <span>📞 Phone: 0974662414</span>
+            <span><a href="https://www.facebook.com/duc.nguyen.58278">🔗 Facebook:
+                    https://www.facebook.com/duc.nguyen.58278</a></span>
+            <span><a href="https://github.com/ducnt05">🔗 GitHub: https://github.com/ducnt05</a></span>
+            <div>
+                <button>
+                    <i class="fa-regular fa-circle-down"></i>Scroll to see details
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="my-skill">
+        <div class="header-skill">
+            <h2>My Tech Stack</h2>
+        </div>
+        <div class="icon-skill">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/java-programming-language-icon.png"
+                alt="" title="Java" />
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/python-programming-language-icon.png"
+                alt="" title="Python" />
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/php-programming-language-icon.png"
+                alt="" title="Php" />
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/html-icon.png" alt=""
+                title="Html" />
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/css-icon.png" alt=""
+                title="Css" />
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/javascript-programming-language-icon.png"
+                alt="" title="Java Script" />
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/mysql-icon.png"
+                alt="" title="My SQL" />
+            <img src=" https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-icon.png"
+                alt="" title="Github" />
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/vercel-icon.png"
+                alt="" title="Vercel" />
+        </div>
+    </div>
+
+    <div class="recent-project">
+        <h2>Recent Projects</h2>
+        <div class="snikei-project">
+            <div class="info-project">
+                <h3>Snikei Shop</h3>
+                <p>
+                    Snikei Shop Website Developed a basic e-commerce website with admin
+                    dashboard using PHP, HTML, CSS, and MySQL.
+                </p>
+                <a href="https://github.com/ducnt05/snikei_shop">View on GitHub</a>
+            </div>
+            <img src="./project/snikei-project.png" alt="" width="600px" />
+        </div>
+        <div class="portfolio-project">
+            <div class="info-project">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    Created a portfolio website to present my profile, skills, and projects.
+                </p>
+                <a href="https://github.com/ducnt05/snikei_shop">View on GitHub</a>
+            </div>
+            <img src="./project/portfolio.png" alt="" width="600px" />
+        </div>
+    </div>
+    <div class="footer">
+        <a href="#">Contact information at top </a>
+    </div>
+    <script src="https://unpkg.com/@studio-freight/lenis"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
