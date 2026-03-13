@@ -65,3 +65,13 @@ window.addEventListener("scroll", function () {
     martWork.classList.add("active");
   }
 });
+setInterval(function(){
+    let btn = document.querySelector(".header button");
+
+    btn.style.transform = "translateY(-5px)";
+
+    setTimeout(function(){
+        btn.style.transform = "translateY(0px)";
+    },300);
+
+},1000);
