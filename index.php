@@ -79,7 +79,7 @@
                 <p>
                     Created a portfolio website to present my profile, skills, and projects.
                 </p>
-                <a href="https://github.com/ducnt05/snikei_shop">View on GitHub</a>
+                <a href="https://github.com/ducnt05/portfolio-project">View on GitHub</a>
             </div>
             <img src="./project/portfolio.png" alt="" width="600px" />
         </div>
