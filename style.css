@@ -383,13 +383,22 @@ body {
   .footer a {
     margin: 0;
   }
+  .slider {
+    display: flex;
+    justify-content: center;
+  }
   .my-cv img {
-    width: 100%;
+    width: 60%;
+    height: 60%;
     max-width: 400px;
   }
   .my-cv h2 {
     font-size: 30px;
+    display: flex;
+    margin: 0;
+    padding: 0;
   }
+  
 }
 .my-cv {
   display: flex;
@@ -419,7 +428,7 @@ body {
   font-size: 50px;
   font-family: cursive;
   color: white;
-  padding: 100px 0;
+  margin: 100px 0;
 }
 
 .slide {
