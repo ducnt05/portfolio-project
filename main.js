@@ -31,14 +31,3 @@ const updateClock = () => { clock.textContent = new Intl.DateTimeFormat('en-GB',
 updateClock();
 setInterval(updateClock, 1000);
 
-const visitorCount = document.querySelector('#visitor-count');
-const visitorEndpoint = 'https://counterapi.com/api/ducnt.id.vn/view/homepage';
-if (visitorCount) {
-  window.updateVisitorCount = (data) => {
-    visitorCount.textContent = Number(data.value).toLocaleString('en-US');
-  };
-  const visitorScript = document.createElement('script');
-  visitorScript.src = `${visitorEndpoint}?callback=updateVisitorCount`;
-  visitorScript.onerror = () => { visitorCount.textContent = '—'; };
-  document.body.appendChild(visitorScript);
-}

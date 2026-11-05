@@ -13,6 +13,7 @@ body.light{--accent:#527000;--accent-2:#563da8}
 .visitor-widget{display:flex;flex-direction:column;align-items:flex-start;gap:7px}
 .visitor-widget span{font:500 10px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .visitor-widget strong{font:14px var(--mono);color:var(--accent)}
+.visitor-badge{display:block;width:116px;height:28px;object-fit:contain;object-position:left center;border-radius:5px}
 @media(max-width:760px){.contact-foot{gap:32px}.visitor-widget{align-items:flex-start;margin-top:35px}.contact-links{gap:8px}.contact-links .email-link{margin-top:35px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
 @media(min-width:761px){.hero{min-height:620px;padding:42px 0 80px;grid-template-columns:1.08fr .92fr}.hero h1{font-size:clamp(52px,6.3vw,88px);margin:24px 0}.hero-visual{height:380px}.section{padding:116px 0}.work-heading{padding:62px 0 56px}.contact h2{font-size:clamp(56px,7vw,90px)}}
