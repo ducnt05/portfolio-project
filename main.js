@@ -30,3 +30,15 @@ const clock = document.querySelector('#clock');
 const updateClock = () => { clock.textContent = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Ho_Chi_Minh', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false }).format(new Date()); };
 updateClock();
 setInterval(updateClock, 1000);
+
+const visitorCount = document.querySelector('#visitor-count');
+const visitorEndpoint = 'https://counterapi.com/api/ducnt05-portfolio/view/homepage';
+if (visitorCount) {
+  window.updateVisitorCount = (data) => {
+    visitorCount.textContent = Number(data.value).toLocaleString('en-US');
+  };
+  const visitorScript = document.createElement('script');
+  visitorScript.src = `${visitorEndpoint}?callback=updateVisitorCount`;
+  visitorScript.onerror = () => { visitorCount.textContent = '—'; };
+  document.body.appendChild(visitorScript);
+}
