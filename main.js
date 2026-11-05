@@ -32,7 +32,7 @@ updateClock();
 setInterval(updateClock, 1000);
 
 const visitorCount = document.querySelector('#visitor-count');
-const visitorEndpoint = 'https://counterapi.com/api/ducnt05-portfolio/view/homepage';
+const visitorEndpoint = 'https://counterapi.com/api/ducnt.id.vn/view/homepage';
 if (visitorCount) {
   window.updateVisitorCount = (data) => {
     visitorCount.textContent = Number(data.value).toLocaleString('en-US');
